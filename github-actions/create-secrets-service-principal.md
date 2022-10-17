@@ -11,7 +11,7 @@ ms.date: 09/19/2022
 
 1. In [GitHub](https://github.com/), browse your repository, select **Settings > Secrets > Actions**.
 
-:::image type="content" source="media/select-secrets.png" alt-text="Screenshot of select secrets. ":::
+:::image type="content" source="../media/select-secrets.png" alt-text="Screenshot of select secrets. ":::
 
 1. Select **New repository secret**.
 
