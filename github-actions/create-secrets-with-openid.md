@@ -23,11 +23,8 @@ You need to provide your application's **Client ID**, **Tenant ID**, and **Subsc
 
 1. In [GitHub](https://github.com/), browse your repository, select **Settings > Secrets > Actions**.
 
-:::image type="content" source="../media/select-secrets.png" alt-text="Screenshot of select secrets. ":::
-
-:::image type="content" source="~~/../reusable-content-media/media/select-secrets.png" alt-text="Screenshot of select secrets. ":::
-
-
+    :::image type="content" source="../media/select-secrets.png" alt-text="Screenshot of select secrets. ":::
+    
 1. Select **New repository secret**.
 
 1. Create secrets for `AZURE_CLIENT_ID`, `AZURE_TENANT_ID`, and `AZURE_SUBSCRIPTION_ID`. Use these values from your Active Directory application for your GitHub secrets:
