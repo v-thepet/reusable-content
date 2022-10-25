@@ -4,7 +4,7 @@ ms.technology: devops-cicd
 ms.manager: mijacobs
 ms.author: jukullam
 author: juliakm
-ms.date: 09/19/2022
+ms.date: 10/25/2022
 ---
 
 1. In [GitHub](https://github.com/), go to your repository.

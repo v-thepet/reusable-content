@@ -13,7 +13,7 @@ ms.date: 10/25/2022
 
 1. Select **Security > Secrets and variables > Actions**.
 
-    :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of select Actions menu item. ":::
+    :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of adding a secret":::
 
 1. Select **New repository secret**.
 
@@ -28,7 +28,7 @@ You need to provide your application's **Client ID**, **Tenant ID**, and **Subsc
 1. In [GitHub](https://github.com/), go to your repository.
 1. Select **Security > Secrets and variables > Actions**.
 
-    :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of select Actions menu item. ":::
+    :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of adding a secret":::
     
 1. Select **New repository secret**.
 
