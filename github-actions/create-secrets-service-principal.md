@@ -7,7 +7,7 @@ author: juliakm
 ms.date: 09/19/2022
 ---
 
-1. In [GitHub](https://github.com/), browse your repository.
+1. In [GitHub](https://github.com/), browse to your repository.
 
 1. Select **Security > Secrets and variables > Actions**.
 
@@ -16,3 +16,5 @@ ms.date: 09/19/2022
 1. Select **New repository secret**.
 
 1. Paste the entire JSON output from the Azure CLI command into the secret's value field. Give the secret the name `AZURE_CREDENTIALS`.
+
+1. Select **Add secret**.
