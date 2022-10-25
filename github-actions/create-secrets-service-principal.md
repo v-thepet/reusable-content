@@ -7,11 +7,11 @@ author: juliakm
 ms.date: 09/19/2022
 ---
 
-# [Service principal](#tab/userlevel)
+1. In [GitHub](https://github.com/), browse your repository.
 
-1. In [GitHub](https://github.com/), browse your repository, select **Settings > Secrets > Actions**.
+1. Select **Security > Secrets and variables > Actions**.
 
-:::image type="content" source="../media/select-secrets.png" alt-text="Screenshot of select secrets. ":::
+    :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of select Actions menu item. ":::
 
 1. Select **New repository secret**.
 

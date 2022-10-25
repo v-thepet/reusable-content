@@ -4,14 +4,16 @@ ms.technology: devops-cicd
 ms.manager: mijacobs
 ms.author: jukullam
 author: juliakm
-ms.date: 09/19/2022
+ms.date: 10/25/2022
 ---
 
 # [Service principal](#tab/userlevel)
 
-1. In [GitHub](https://github.com/), browse your repository, select **Settings > Secrets > Actions**.
+1. In [GitHub](https://github.com/), browse your repository.
 
-:::image type="content" source="../media/select-secrets.png" alt-text="Screenshot of select secrets. ":::
+1. Select **Security > Secrets and variables > Actions**.
+
+    :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of select Actions menu item. ":::
 
 1. Select **New repository secret**.
 
@@ -21,9 +23,10 @@ ms.date: 09/19/2022
 
 You need to provide your application's **Client ID**, **Tenant ID**, and **Subscription ID** to the login action. These values can either be provided directly in the workflow or can be stored in GitHub secrets and referenced in your workflow. Saving the values as GitHub secrets is the more secure option.
 
-1. In [GitHub](https://github.com/), browse your repository, select **Settings > Secrets > Actions**.
+1. In [GitHub](https://github.com/), browse your repository.
+1. Select **Security > Secrets and variables > Actions**.
 
-    :::image type="content" source="../media/select-secrets.png" alt-text="Screenshot of select secrets. ":::
+    :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of select Actions menu item. ":::
     
 1. Select **New repository secret**.
 
@@ -36,5 +39,5 @@ You need to provide your application's **Client ID**, **Tenant ID**, and **Subsc
     |AZURE_SUBSCRIPTION_ID     |     Subscription ID    |
 
 1. Save each secret by selecting **Add secret**.
-1. 
+
 ---
