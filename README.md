@@ -1,5 +1,14 @@
+# About
 
-# Contributing
+This repository contains content included on Microsoft Learn repos that appears as part of articles on https://learn.microsoft.com/ properties. There are multiple repositories that hold Microsoft Learn and often writers need to have the same content appear in multiple repos. The goal of this repo is to have one source for include files can be referenced in multiple repos in the `dependent_repositories` section of `.openpublishing.redirection.json`.
+
+## Example workflow
+
+1. 
+ 
+
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -13,7 +22,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
