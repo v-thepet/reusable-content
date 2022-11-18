@@ -10,11 +10,11 @@ The same set of instructions for creating a GitHub secret appears in 20+ article
 
 ### Workflow
 
-1. Add a new folder to the [reusable-content repo](https://github.com/MicrosoftDocs/reusable-content) for your service. The folder name should match the MSProd value for your content set. (Note: we may need to update existing content to meet this standard).
+1. Add a new folder to the [reusable-content repo](https://github.com/MicrosoftDocs/reusable-content) for your service. The folder name should match the MSProd value for your content set. (_Note_: we may need to update existing content to meet this standard).
   
-2. In the folder, add an include file with your content that follows the guidelines for using includes. The include file can reference images in a `media` folder and should include metadata values.  For more information, see [Include reusable content in articles](https://review.learn.microsoft.com/en-us/help/platform/includes-best-practices?branch). 
+2. In the folder, add an include file with your content that follows the Learn guidelines for using includes. The include file can reference images in a `media` folder and should include metadata values.  For more information, see [Include reusable content in articles](https://review.learn.microsoft.com/en-us/help/platform/includes-best-practices).
 
-3. Update `.openpublishing.publish.config.json` and add a section to `dependent_repositories` ([Learn platform user manual](https://review.learn.microsoft.com/en-us/help/platform/includes-best-practices?branch=main#cross-repo-includes)). To include images, you need to include the `build_entry_point` value in the `docsets_to_publish` section of `.openpublishing.publish.config.json` in the `path_to_root` value of the `dependent_repositories` property. 
+3. Update `.openpublishing.publish.config.json` and add a section to `dependent_repositories` ([Learn platform user manual](https://review.learn.microsoft.com/en-us/help/platform/includes-best-practices?branch=main#cross-repo-includes)). To include images, you need to include the `build_entry_point` value in the `docsets_to_publish` section of `.openpublishing.publish.config.json` in the `path_to_root` value of the `dependent_repositories` property.
 
     ```json
        {
