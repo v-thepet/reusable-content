@@ -6,7 +6,8 @@ This repository contains content included on Microsoft Learn repos that appears 
 
 ### Use case
 
-The same set of instructions for creating a GitHub secret appears in 20+ articles on Microsoft Learn across four different repositories. There's a GitHub UI change and as a writer you want to update a screenshot and navigation path referenced in the articles quickly.
+You are a content developer updating multiple articles across multiple Microsoft Learn repositories. The same set of instructions for creating a GitHub secret appears in 20+ articles on Microsoft Learn across four different repositories. 
+You need to update instructions and a corresponding screenshot quickly. 
 
 ### Workflow
 
