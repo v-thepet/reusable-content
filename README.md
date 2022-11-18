@@ -1,6 +1,8 @@
 # About
 
-This repository contains content included on Microsoft Learn repos that appears as part of articles on [Microsoft Learn](https://learn.microsoft.com) properties. There are multiple repositories that contain Microsoft Learn content and writers often need to have the same content appear in multiple repos. The goal of this repo is to have one source for include files can be referenced in multiple repos in the `dependent_repositories` section of `.openpublishing.redirection.json`.
+This repository contains content included on Microsoft Learn repos that appears as part of articles on [Microsoft Learn](https://learn.microsoft.com) properties. There are multiple repositories that contain Microsoft Learn content and writers often need to have the same content appear in multiple repos.
+
+The goal of this project is to have one repository for include files that need to be referenced in multiple repos.
 
 ## Example use case and workflow
 
