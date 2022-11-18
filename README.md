@@ -1,11 +1,39 @@
 # About
 
-This repository contains content included on Microsoft Learn repos that appears as part of articles on https://learn.microsoft.com/ properties. There are multiple repositories that hold Microsoft Learn and often writers need to have the same content appear in multiple repos. The goal of this repo is to have one source for include files can be referenced in multiple repos in the `dependent_repositories` section of `.openpublishing.redirection.json`.
+This repository contains content included on Microsoft Learn repos that appears as part of articles on [Microsoft Learn](https://learn.microsoft.com) properties. There are multiple repositories that contain Microsoft Learn content and writers often need to have the same content appear in multiple repos. The goal of this repo is to have one source for include files can be referenced in multiple repos in the `dependent_repositories` section of `.openpublishing.redirection.json`.
 
-## Example workflow
+## Example use case and workflow
 
-1. 
- 
+### Use case
+
+The same set of instructions for creating a GitHub secret appears in 20+ articles on Microsoft Learn across four different repositories. There's a GitHub UI change and as a writer you want to update a screenshot and navigation path referenced in the articles quickly.
+
+### Workflow
+
+1. Add a new folder to the [reusable-content repo](https://github.com/MicrosoftDocs/reusable-content) for your service. The folder name should match the MSProd value for your content set. (Note: we may need to update existing content to meet this standard).
+  
+2. In the folder, add an include file with your content that follows the guidelines for using includes. The include file can reference images in a `media` folder and should include metadata values.  For more information, see [Include reusable content in articles](https://review.learn.microsoft.com/en-us/help/platform/includes-best-practices?branch). 
+
+3. Update `.openpublishing.publish.config.json` and add a section to `dependent_repositories` ([Learn platform user manual](https://review.learn.microsoft.com/en-us/help/platform/includes-best-practices?branch=main#cross-repo-includes)). To include images, you need to include the `build_entry_point` value in the `docsets_to_publish` section of `.openpublishing.publish.config.json` in the `path_to_root` value of the `dependent_repositories` property. 
+
+    ```json
+       {
+      "path_to_root": "docs/reusable-content",
+      "url": "https://github.com/MicrosoftDocs/reusable-content",
+      "branch": "main",
+      "branch_mapping": {}
+    }
+    ```
+
+4. Within your doc set, add the include to your article with `INCLUDE` syntax. Your path should include the build entry point.
+
+    ```code
+    [!INCLUDE [include](~/../docs/reusable-content/github-actions/authenticate-with-pat.md)]
+    ```
+
+5. Save and push your code. Verify that the include file appears within your article and that all images display. 
+
+## Troubleshooting
 
 
 ## Contributing
