@@ -38,6 +38,9 @@ You need to update instructions and a corresponding screenshot quickly.
 
 ## Troubleshooting
 
+If your images aren't showing up, first make sure that they are being added to the build. One the build report and verify in the **Publish Files** section that the images are included. Select each **File Name** to verify that the link works.
+
+If the images are being added to the build but are not appearing, recheck that the path you are using to reference your images is correct. 
 
 ## Contributing
 
