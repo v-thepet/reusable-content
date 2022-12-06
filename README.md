@@ -14,8 +14,8 @@ You need to update instructions and a corresponding screenshot quickly.
 ### Workflow
 
 1. Add a new folder to the [reusable-content repo](https://github.com/MicrosoftDocs/reusable-content) for your service at the root level. The folder name should match the MSProd, MSService, or MSSubService for your content set. (_Note_: we may need to update existing content to meet this standard).
-
-    :::image type="content" source="media/service-level-folders.png" alt-text="Screenshot of service folders at root level. ":::
+    
+    ![Screenshot of service folders at root level.](media/service-level-folders.png?raw=true "Service folders")
 
 2. In the folder, add an include file with your content that follows the Learn guidelines for using includes. The include file can reference images in a `media` folder and should include metadata values.  For more information, see [Include reusable content in articles](https://review.learn.microsoft.com/en-us/help/platform/includes-best-practices).
     * [GitHub Actions example: Authenticate with PAT](github-actions/authenticate-with-pat.md)
