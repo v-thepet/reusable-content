@@ -53,9 +53,15 @@ You need to update instructions and a corresponding screenshot quickly.
 
 ## Troubleshooting
 
+### Why can't I see my images?
+
 If your images aren't showing up, first make sure that they are being added to the build. One the build report and verify in the **Publish Files** section that the images are included. Select each **File Name** to verify that the link works.
 
 If the images are being added to the build but are not appearing, recheck that the path you are using to reference your images is correct.
+
+### Why can't I see the entire include file?
+
+For an include file to appear from the dependent repository (reusable-content), the branch names in the reusable-content repository and your primary repository need to match. When you are testing, first merge your PR in the reusable-content repository. Then, reference your file within `.openpublishing.publish.config.json` from using the main branch. 
 
 ## Contributing
 
