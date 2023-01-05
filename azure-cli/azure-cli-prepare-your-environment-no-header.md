@@ -11,7 +11,7 @@ ms.note: This include file is used by over 460 articles. Check with ms.author be
 
 - Use the Bash environment in [Azure Cloud Shell](/azure/cloud-shell/overview). For more information, see [Quickstart for Bash in Azure Cloud Shell](/azure/cloud-shell/quickstart).
 
-   [![Launch Cloud Shell in a new window](hdi-launch-cloud-shell.png)](https://shell.azure.com)
+   [![Launch Cloud Shell in a new window](media/hdi-launch-cloud-shell.png)](https://shell.azure.com)
 - If you prefer to run CLI reference commands locally, [install](/cli/azure/install-azure-cli) the Azure CLI. If you're running on Windows or macOS, consider running Azure CLI in a Docker container. For more information, see [How to run the Azure CLI in a Docker container](/cli/azure/run-azure-cli-docker).
 
   - If you're using a local installation, sign in to the Azure CLI by using the [az login](/cli/azure/reference-index#az-login) command. To finish the authentication process, follow the steps displayed in your terminal. For other sign-in options, see [Sign in with the Azure CLI](/cli/azure/authenticate-azure-cli).
