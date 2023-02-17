@@ -68,6 +68,10 @@ If the images are being added to the build but are not appearing, recheck that t
 
 For an include file to appear from the dependent repository (reusable-content), the branch names in the reusable-content repository and your primary repository need to match. When you are testing, first merge your PR in the reusable-content repository. Then, reference your file within `.openpublishing.publish.config.json` from using the main branch. 
 
+### Can I use variable replacement in my include files?
+
+Include files do not support variable replacement. 
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
