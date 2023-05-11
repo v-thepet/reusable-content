@@ -4,6 +4,10 @@ This repository contains content included on Microsoft Learn repos that appears 
 
 The goal of this project is to have one repository for include files that need to be referenced in multiple repos.
 
+## Get help
+
+Contact the Reusable Content Repo Admins group at <reusablecontent@microsoft.com> for help with merging PRs.
+
 ## Example use case and workflow
 
 ### Use case
