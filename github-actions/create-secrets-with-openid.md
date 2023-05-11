@@ -11,6 +11,8 @@ ms.date: 10/25/2022
 
 1. In [GitHub](https://github.com/), go to your repository.
 
+1. Go to **Settings** in the navigation menu.
+
 1. Select **Security > Secrets and variables > Actions**.
 
     :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of adding a secret":::

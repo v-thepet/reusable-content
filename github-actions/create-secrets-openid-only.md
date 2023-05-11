@@ -10,6 +10,7 @@ ms.date: 01/09/2023
 You need to provide your application's **Client ID**, **Tenant ID**, and **Subscription ID** to the login action. These values can either be provided directly in the workflow or can be stored in GitHub secrets and referenced in your workflow. Saving the values as GitHub secrets is the more secure option.
 
 1. In [GitHub](https://github.com/), go to your repository.
+1. Go to **Settings** in the navigation menu.
 1. Select **Security > Secrets and variables > Actions**.
 
     :::image type="content" source="../media/github-select-actions.png" alt-text="Screenshot of adding a secret":::
