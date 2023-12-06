@@ -14,8 +14,10 @@ Create a [service principal](/azure/active-directory/develop/app-objects-and-ser
 ```azurecli-interactive
 az ad sp create-for-rbac --name "myML" --role contributor \
                             --scopes /subscriptions/<subscription-id>/resourceGroups/<group-name> \
-                            --sdk-auth
+                            --json-auth
 ```
+
+The parameter `--json-auth` is available in Azure CLI versions >= 2.51.0. Versions prior to this use `--sdk-auth` with a deprecation warning.
 
 In the example above, replace the placeholders with your subscription ID, resource group name, and app name. The output is a JSON object with the role assignment credentials that provide access to your App Service app similar to below. Copy this JSON object for later.
 
