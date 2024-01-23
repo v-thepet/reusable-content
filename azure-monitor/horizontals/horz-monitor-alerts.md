@@ -12,7 +12,7 @@ Azure Monitor alerts proactively notify you when specific conditions are found i
 
 There are many sources of common alerts for Azure resources. For examples of common alerts for Azure resources, see [Sample log alert queries](/azure/azure-monitor/alerts/alerts-log-alert-query-samples).
 
-The common alert schema standardizes the consumption of Azure Monitor alert notifications. For more information, see [Common alert schema for ](/azure/azure-monitor/alerts/alerts-common-schema).
+The common alert schema standardizes the consumption of Azure Monitor alert notifications. For more information, see [Common alert schema](/azure/azure-monitor/alerts/alerts-common-schema).
 
 <!-- TODO in include - Put in information on various types of alerts or guidance on how to choose which types to use. -->
 
