@@ -6,7 +6,7 @@ ms.topic: include
 ms.date: 01/17/2024
 ---
 
-## Resource type and monitoring data
+## Resource types
 
 Azure Monitor organizes core monitoring data into metrics and logs based on resource types, also called *namespaces*. Different metrics and logs are available for different resource types. Your service might be associated with more than one resource type.
 

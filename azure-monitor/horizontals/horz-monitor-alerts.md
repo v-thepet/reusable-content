@@ -18,17 +18,17 @@ The common alert schema standardizes the consumption of Azure Monitor alert noti
 
 You can alert on any metric or log data source in the Azure Monitor data platform. There are many different types of alerts depending on the services you're monitoring and the monitoring data you're collecting. Different types of alerts have various benefits and drawbacks. For more information, see [Choose the right monitoring alert type](/azure/azure-monitor/alerts/alerts-types).
 
-This article describes the kinds of Azure Monitor alerts you can create:
+The following list describes the kinds of Azure Monitor alerts you can create:
 
-- [Metric alerts](/azure/azure-monitor/alerts/alerts-types.md#metric-alerts)|Metric alerts evaluate resource metrics at regular intervals. Metrics can be platform metrics, custom metrics, logs from Azure Monitor converted to metrics, or Application Insights metrics. Metric alerts can also apply multiple conditions and dynamic thresholds.|
-- [Log alerts](/azure/azure-monitor/alerts/alerts-types.md#log-alerts)|Log alerts allow users to use a Log Analytics query to evaluate resource logs at a predefined frequency.|
-- [Activity log alerts](/azure/azure-monitor/alerts/alerts-types.md#activity-log-alerts)|Activity log alerts are triggered when a new activity log event occurs that matches defined conditions. Resource Health alerts and Service Health alerts are activity log alerts that report on your service and resource health.|
-- [Smart detection alerts](/azure/azure-monitor/alerts/alerts-types.md#smart-detection-alerts)|Smart detection on an Application Insights resource automatically warns you of potential performance problems and failure anomalies in your web application. You can migrate smart detection on your Application Insights resource to create alert rules for the different smart detection modules.
-- [Prometheus alerts](/azure/azure-monitor/alerts/alerts-types.md#prometheus-alerts)|Prometheus alerts are used for alerting on Prometheus metrics stored in [Azure Monitor managed services for Prometheus](/azure/azure-monitor/essentials/prometheus-metrics-overview.md). The alert rules are based on the PromQL open-source query language.
+- [Metric alerts](/azure/azure-monitor/alerts/alerts-types#metric-alerts) evaluate resource metrics at regular intervals. Metrics can be platform metrics, custom metrics, logs from Azure Monitor converted to metrics, or Application Insights metrics. Metric alerts can also apply multiple conditions and dynamic thresholds.|
+- [Log alerts](/azure/azure-monitor/alerts/alerts-types#log-alerts) allow users to use a Log Analytics query to evaluate resource logs at a predefined frequency.|
+- [Activity log alerts](/azure/azure-monitor/alerts/alerts-types#activity-log-alerts) trigger when a new activity log event occurs that matches defined conditions. Resource Health alerts and Service Health alerts are activity log alerts that report on your service and resource health.|
+- [Smart detection alerts](/azure/azure-monitor/alerts/alerts-types#smart-detection-alerts) on an Application Insights resource automatically warn you of potential performance problems and failure anomalies in your web application. You can migrate smart detection on your Application Insights resource to create alert rules for the different smart detection modules.
+- [Prometheus alerts](/azure/azure-monitor/alerts/alerts-types#prometheus-alerts) alert on Prometheus metrics stored in [Azure Monitor managed services for Prometheus](/azure/azure-monitor/essentials/prometheus-metrics-overview.md). The alert rules are based on the PromQL open-source query language.
 
 ### Recommended alert rules
 
-For some Azure services, you can [enable recommended out-of-the-box alert rules](alerts-manage-alert-rules.md#enable-recommended-alert-rules-in-the-azure-portal).
+For some Azure services, you can [enable recommended out-of-the-box alert rules](/azure/azure-monitor/alerts/alerts-manage-alert-rules#enable-recommended-alert-rules-in-the-azure-portal).
 
 The system compiles a list of recommended alert rules based on:
 
