@@ -16,5 +16,3 @@ ms.date: 01/25/2024
 - **Time Grains** - Intervals at which the metric is sampled. For example, `PT1M` indicates that the metric is sampled every minute, `PT30M` every 30 minutes, `PT1H` every hour, and so on.
 - **DS Export**- Whether the metric is exportable to Azure Monitor Logs via Diagnostic Settings. For information on exporting metrics, see [Create diagnostic settings in Azure Monitor](/azure/azure-monitor/essentials/create-diagnostic-settings?tabs=portal).
 
-For information on metric retention, see [Azure Monitor Metrics overview](/azure/azure-monitor/essentials/data-platform-metrics#retention-of-metrics).
-
