@@ -12,4 +12,4 @@ If critical conditions or imminent changes occur during resource operations, an 
 
 You can find more information and recommended fixes for the alert in **Advisor recommendations** under **Monitoring**. During normal operations, no advisor recommendations display.
 
-For more information on Azure Advisor, see [Azure Advisor Overview](/azure/advisor/advisor-overview).
+For more information on Azure Advisor, see [Azure Advisor overview](/azure/advisor/advisor-overview).
