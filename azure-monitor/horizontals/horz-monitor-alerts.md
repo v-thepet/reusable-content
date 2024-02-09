@@ -27,7 +27,7 @@ The following list describes the types of Azure Monitor alerts you can create:
 You can also create the following types of alerts for some Azure services:
 
 - [Smart detection alerts](/azure/azure-monitor/alerts/alerts-types#smart-detection-alerts) on an Application Insights resource automatically warn you of potential performance problems and failure anomalies in your web application. You can migrate smart detection on your Application Insights resource to create alert rules for the different smart detection modules.
-- [Prometheus alerts](/azure/azure-monitor/alerts/alerts-types#prometheus-alerts) alert on Prometheus metrics stored in [Azure Monitor managed services for Prometheus](/azure/azure-monitor/essentials/prometheus-metrics-overview.md). The alert rules are based on the PromQL open-source query language.
+- [Prometheus alerts](/azure/azure-monitor/alerts/alerts-types#prometheus-alerts) alert on Prometheus metrics stored in [Azure Monitor managed services for Prometheus](/azure/azure-monitor/essentials/prometheus-metrics-overview.md). The alert rules are based on the PromQL open-source query language. Your service may not support this type of alert. Currently, Prometheus is used on a limited set of services with a guest operating system, such as Azure Virtual Machine and Azure Container Instances.
 - [Recommended alert rules](/azure/azure-monitor/alerts/alerts-manage-alert-rules#enable-recommended-alert-rules-in-the-azure-portal) are available out-of-box for some Azure resources, including virtual machines, Azure Kubernetes Service (AKS) resources, and Log Analytics workspaces.
 
 ### Monitor multiple resources
