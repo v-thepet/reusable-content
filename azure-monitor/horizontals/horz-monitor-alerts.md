@@ -3,7 +3,7 @@ author: rboucher
 ms.author: robb
 ms.service: azure-monitor
 ms.topic: include
-ms.date: 01/17/2024
+ms.date: 02/09/2024
 ---
 
 ## Alerts
@@ -25,21 +25,6 @@ The following list describes the types of Azure Monitor alerts you can create:
 - [Activity log alerts](/azure/azure-monitor/alerts/alerts-types#activity-log-alerts) trigger when a new activity log event occurs that matches defined conditions. Resource Health alerts and Service Health alerts are activity log alerts that report on your service and resource health.
 - [Smart detection alerts](/azure/azure-monitor/alerts/alerts-types#smart-detection-alerts) on an Application Insights resource automatically warn you of potential performance problems and failure anomalies in your web application. You can migrate smart detection on your Application Insights resource to create alert rules for the different smart detection modules.
 - [Prometheus alerts](/azure/azure-monitor/alerts/alerts-types#prometheus-alerts) alert on Prometheus metrics stored in [Azure Monitor managed services for Prometheus](/azure/azure-monitor/essentials/prometheus-metrics-overview.md). The alert rules are based on the PromQL open-source query language.
-
-### Recommended alert rules
-
-For some Azure services, you can [enable recommended out-of-the-box alert rules](/azure/azure-monitor/alerts/alerts-manage-alert-rules#enable-recommended-alert-rules-in-the-azure-portal).
-
-The system compiles a list of recommended alert rules based on:
-
-- The resource provider's knowledge of important signals and thresholds for monitoring the resource.
-- Data that tells what customers commonly alert on for this resource.
-
-> [!NOTE]
-> Recommended alert rules are available for:
-> - Virtual machines
-> - Azure Kubernetes Service (AKS) resources
-> - Log Analytics workspaces
 
 ### Monitor multiple resources
 
