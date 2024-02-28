@@ -3,18 +3,20 @@ author: rboucher
 ms.author: robb
 ms.service: azure-monitor
 ms.topic: include
-ms.date: 01/17/2024
+ms.date: 02/27/2024
 ---
 
 ## Analyze monitoring data
 
-Azure Monitor provides several tools for analyzing monitoring data.
+There are many tools for analyzing monitoring data.
 
-The basic tools are:
+### Azure Monitor tools
+
+Azure Monitor supports the following basic tools:
 
 - [Metrics explorer](/azure/azure-monitor/essentials/metrics-getting-started), a tool in the Azure portal that allows you to view and analyze metrics for Azure resources. For more information, see [Analyze metrics with Azure Monitor metrics explorer](/azure/azure-monitor/essentials/metrics-getting-started).
 
-- [Log Analytics](/azure/azure-monitor/learn/quick-create-workspace), a tool in the Azure portal that allows you to query and analyze log data by using the [KQL query language](/azure/data-explorer/kusto/query). For more information, see [Get started with log queries in Azure Monitor](/azure/azure-monitor/logs/get-started-queries).
+- [Log Analytics](/azure/azure-monitor/learn/quick-create-workspace), a tool in the Azure portal that allows you to query and analyze log data by using the [Kusto query language (KQL)](/azure/data-explorer/kusto/query). For more information, see [Get started with log queries in Azure Monitor](/azure/azure-monitor/logs/get-started-queries).
 
 - The [activity log](/azure/azure-monitor/essentials/activity-log), which has a user interface in the Azure portal for viewing and basic searches. To do more in-depth analysis, you have to route the data to Azure Monitor logs and run more complex queries in Log Analytics.
 

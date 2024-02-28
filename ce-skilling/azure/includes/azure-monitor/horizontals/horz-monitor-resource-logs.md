@@ -3,10 +3,10 @@ author: rboucher
 ms.author: robb
 ms.service: azure-monitor
 ms.topic: include
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ---
 
-## Resource logs
+## Azure Monitor resource logs
 
 Resource logs provide insight into operations that were done by an Azure resource. Logs are generated automatically, but you must route them to Azure Monitor logs to save or query them. Logs are organized by category. A given namespace might have multiple resource log categories.
 

@@ -3,10 +3,10 @@ author: rboucher
 ms.author: robb
 ms.service: azure-monitor
 ms.topic: include
-ms.date: 01/17/2024
+ms.date: 02/27/2024
 ---
 
-## Platform metrics
+## Azure Monitor platform metrics
 
 Azure Monitor provides platform metrics for most services. These metrics are:
 

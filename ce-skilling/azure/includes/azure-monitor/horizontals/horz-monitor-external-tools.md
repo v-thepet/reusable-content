@@ -3,10 +3,10 @@ author: rboucher
 ms.author: robb
 ms.service: azure-monitor
 ms.topic: include
-ms.date: 01/17/2024
+ms.date: 02/27/2024
 ---
 
-### External tools
+### Azure Monitor export tools
 
 You can get data out of Azure Monitor into other tools by using the following methods:
 
@@ -17,9 +17,3 @@ You can get data out of Azure Monitor into other tools by using the following me
 
 To get started with the REST API for Azure Monitor, see [Azure monitoring REST API walkthrough](/azure/azure-monitor/essentials/rest-api-walkthrough?tabs=portal).
 
-<!-- TODO FINISH THIS SECTION.
-- NOTES: Deals with the ingestion pipe and exports data live per workspace. Continuous. 
-
-Use REST API to get the historical data out of the workspace. (2023_01_09 Note new feature coming to that will allow export of historical data.)
-
-TODO Only for Python? And it does metrics too?   NEED TO FIX THIS IN THE CORE DOCS. What REST API?  SHOULD BE IN OVERVIEW. -->
