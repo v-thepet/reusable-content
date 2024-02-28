@@ -6,6 +6,7 @@ ms.topic: include
 ms.date: 02/27/2024
 ---
 
+<a name="platform-metrics"></a>
 ## Azure Monitor platform metrics
 
 Azure Monitor provides platform metrics for most services. These metrics are:

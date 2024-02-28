@@ -6,6 +6,7 @@ ms.topic: include
 ms.date: 02/27/2024
 ---
 
+<a name="sample-kusto-queries"></a>
 ## Kusto queries
 
 You can analyze monitoring data in the Azure Monitor Logs / Log Analytics store by using the Kusto query language (KQL).

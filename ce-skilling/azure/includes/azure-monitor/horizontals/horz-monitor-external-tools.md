@@ -6,6 +6,7 @@ ms.topic: include
 ms.date: 02/27/2024
 ---
 
+<a name="external-tools"></a>
 ### Azure Monitor export tools
 
 You can get data out of Azure Monitor into other tools by using the following methods:
