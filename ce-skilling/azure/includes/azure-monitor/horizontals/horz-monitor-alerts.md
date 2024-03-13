@@ -24,13 +24,7 @@ The following list describes the types of Azure Monitor alerts you can create:
 - [Log alerts](/azure/azure-monitor/alerts/alerts-types#log-alerts) allow users to use a Log Analytics query to evaluate resource logs at a predefined frequency.
 - [Activity log alerts](/azure/azure-monitor/alerts/alerts-types#activity-log-alerts) trigger when a new activity log event occurs that matches defined conditions. Resource Health alerts and Service Health alerts are activity log alerts that report on your service and resource health.
 
-You can also create the following types of alerts for some Azure services:
+Some Azure services also support [smart detection alerts](/azure/azure-monitor/alerts/alerts-types#smart-detection-alerts), [Prometheus alerts](/azure/azure-monitor/alerts/alerts-types#prometheus-alerts), or [recommended alert rules](/azure/azure-monitor/alerts/alerts-manage-alert-rules#enable-recommended-alert-rules-in-the-azure-portal).
 
-- [Smart detection alerts](/azure/azure-monitor/alerts/alerts-types#smart-detection-alerts) on an Application Insights resource automatically warn you of potential performance problems and failure anomalies in your web application. You can migrate smart detection on your Application Insights resource to create alert rules for the different smart detection modules.
-- [Prometheus alerts](/azure/azure-monitor/alerts/alerts-types#prometheus-alerts) alert on Prometheus metrics stored in [Azure Monitor managed services for Prometheus](/azure/azure-monitor/essentials/prometheus-metrics-overview.md). The alert rules are based on the PromQL open-source query language. Your service may not support this type of alert. Currently, Prometheus is used on a limited set of services with a guest operating system, such as Azure Virtual Machine and Azure Container Instances.
-- [Recommended alert rules](/azure/azure-monitor/alerts/alerts-manage-alert-rules#enable-recommended-alert-rules-in-the-azure-portal) are available out-of-box for some Azure resources, including virtual machines, Azure Kubernetes Service (AKS) resources, and Log Analytics workspaces.
-
-### Monitor multiple resources
-
-You can monitor at scale by applying the same metric alert rule to multiple resources of the same type that exist in the same Azure region. Individual notifications are sent for each monitored resource. For supported Azure services and clouds, see [Monitor multiple resources with one alert rule](/azure/azure-monitor/alerts/alerts-types#monitor-multiple-resources-with-one-alert-rule).
+For some services, you can monitor at scale by applying the same metric alert rule to multiple resources of the same type that exist in the same Azure region. Individual notifications are sent for each monitored resource. For supported Azure services and clouds, see [Monitor multiple resources with one alert rule](/azure/azure-monitor/alerts/alerts-types#monitor-multiple-resources-with-one-alert-rule).
 

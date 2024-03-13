@@ -20,3 +20,6 @@ If you want the container insights monitoring experience, you can continue to ha
 
 **Routing:** Container insights sends data to a Log Analytics workspace where you can analyze it with Azure Monitor. Managed Prometheus sends data to an Azure Monitor workspace where Managed Grafana can access it.
 
+### Prometheus alerts
+
+[Prometheus alerts](/azure/azure-monitor/alerts/alerts-types#prometheus-alerts) alert on Prometheus metrics stored in Azure Monitor managed services for Prometheus. The alert rules are based on the PromQL open-source query language. Currently, Prometheus metrics are used on a limited set of services with a guest operating system, such as Azure Virtual Machine and Azure Container Instances.
